@@ -25,7 +25,7 @@ export default function AboutMarioPage() {
               { title: "Corporate Leadership", description: "Instrumental leadership experience at major aviation firms including SBA Airlines and Aerolíneas Estelar.", icon: Award },
               { title: "MR3 Methodology", description: "Architect of the proprietary MR3 Methodology, a standard for institutional-level financial governance and long-term SME scalability.", icon: TrendingUp }
             ]}
-            imageSrc="http://img.b2bpic.net/free-photo/portrait-successful-businessman-wearing-suit_482257-119154.jpg"
+            imageSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3D5Ddw1UV49HfUDtfnYyARfprBa/uploaded-1777572622020-e2esb75s.jpg"
           />
         </div>
         <div id="footer" data-section="footer">
