@@ -26,13 +26,10 @@ export default function LandingPage() {
   <div id="nav" data-section="nav">
       <NavbarStyleCentered
       navItems={[
-        { name: "The System", id: "system" },
-        { name: "Case Studies", id: "cases" },
-        { name: "Methodology", id: "about" },
+        { name: "Home", id: "/" },
         { name: "About Mario", id: "/about-mario" },
         { name: "Services", id: "/services" },
         { name: "FAQ", id: "/faq" },
-        { name: "Strategy", id: "contact" },
       ]}
       brandName="Consulting MM"
     />
