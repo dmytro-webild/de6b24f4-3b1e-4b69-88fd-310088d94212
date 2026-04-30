@@ -19,6 +19,7 @@ export default function FaqPage() {
             sideTitle="Governance Intelligence: Your Questions Answered"
             sideDescription="Everything you need to know about our MR3 methodology and institutional systems."
             faqsAnimation="slide-up"
+            useInvertedBackground={false}
             faqs={[
               { id: "mr3-1", title: "What does MR3 stand for?", content: "MR3 stands for Methodology, Rigor, Resilience, and Results—the four pillars of our institutional governance framework." },
               { id: "mr3-2", title: "How is it different from traditional consulting?", content: "Unlike traditional consulting that provides static advice, our approach installs a permanent, scalable system that stays with your organization." },
@@ -39,6 +40,7 @@ export default function FaqPage() {
             description="Schedule your discovery session to begin your system architecture implementation."
             buttons={[{ text: "Book a Discovery Session", href: "#" }]}
             background={{ variant: "sparkles-gradient" }}
+            useInvertedBackground={false}
           />
         </div>
         <div id="footer" data-section="footer">
