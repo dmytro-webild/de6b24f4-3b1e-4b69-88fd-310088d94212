@@ -133,17 +133,17 @@ export default function LandingPage() {
         {
           id: "p1",          badge: "Phase 1",          price: "Diagnose",          subtitle: "KPI Analysis & Liquidity Testing",          features: [
             "Financial diagnostics",            "KPI bench-marking",            "Liquidity audit"],
-          buttons: [],
+          buttons: [{ text: "Start Diagnosis", href: "#contact" }],
         },
         {
           id: "p2",          badge: "Phase 2",          price: "Optimize",          subtitle: "Cost & Budget Restructuring",          features: [
             "Cost architecture",            "Budgetary control",            "Cash flow optimization"],
-          buttons: [],
+          buttons: [{ text: "Begin Optimization", href: "#contact" }],
         },
         {
           id: "p3",          badge: "Phase 3",          price: "Sustain",          subtitle: "Predictive Governance",          features: [
             "Governance protocols",            "KPI dashboards",            "Predictive monitoring"],
-          buttons: [],
+          buttons: [{ text: "Implement Governance", href: "#contact" }],
         },
       ]}
       title="MR³ Financial Systems Architecture"
