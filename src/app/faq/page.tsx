@@ -19,6 +19,7 @@ export default function FaqPage() {
             title="Governance Intelligence"
             description="Everything you need to know about our MR3 methodology and institutional systems."
             faqsAnimation="slide-up"
+            textboxLayout="default"
             useInvertedBackground={false}
             faqs={[
               { id: "mr3-1", title: "What does MR3 stand for?", content: "MR3 stands for Methodology, Rigor, Resilience, and Results—the four pillars of our institutional governance framework." },
