@@ -67,7 +67,7 @@ export default function LandingPage() {
       ]}
       buttons={[
         {
-          text: "Explore the System",          href: "#system"},
+          text: "Get Your Financial Audit",          href: "#system"},
         {
           text: "Schedule a Strategy Session",          href: "#contact"},
       ]}
