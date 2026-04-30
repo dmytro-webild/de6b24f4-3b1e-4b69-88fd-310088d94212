@@ -12,7 +12,7 @@ export default function AboutMarioPage() {
     <ThemeProvider defaultButtonVariant="text-stagger" defaultTextAnimation="entrance-slide" borderRadius="rounded" contentWidth="medium" sizing="medium" background="circleGradient" cardStyle="glass-elevated" primaryButtonStyle="gradient" secondaryButtonStyle="glass" headingFontWeight="normal">
       <ReactLenis root>
         <div id="nav" data-section="nav">
-          <NavbarStyleCentered navItems={[{ name: "Home", id: "/" }, { name: "Services", id: "/services" }, { name: "About Mario", id: "/about-mario" }]} brandName="Consulting MM" />
+          <NavbarStyleCentered navItems={[{ name: "Home", id: "/" }, { name: "Services", id: "/services" }, { name: "About Mario", id: "/about-mario" }, { name: "FAQ", id: "/faq" }]} brandName="Consulting MM" />
         </div>
         <div id="about" data-section="about">
           <SplitAbout 
