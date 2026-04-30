@@ -6,7 +6,6 @@ import NavbarStyleCentered from '@/components/navbar/NavbarStyleCentered/NavbarS
 import PricingCardThree from '@/components/sections/pricing/PricingCardThree';
 import ContactCTA from '@/components/sections/contact/ContactCTA';
 import FooterCard from '@/components/sections/footer/FooterCard';
-import { CheckCircle } from 'lucide-react';
 
 export default function ServicesPage() {
   return (
@@ -21,6 +20,7 @@ export default function ServicesPage() {
             description="Select the governance framework that aligns with your organization's financial maturity and scaling objectives."
             animationType="slide-up"
             textboxLayout="split"
+            useInvertedBackground={false}
             plans={[
               {
                 id: "mr3-install",                name: "MR3 System Installation",                price: "Implementation",                features: ["Financial Governance Baseline", "Data-Driven Reporting", "Operational Stability Protocols"],
@@ -44,6 +44,7 @@ export default function ServicesPage() {
             description="Our comprehensive diagnostic tool evaluates your current financial architecture and benchmarks it against institutional standards."
             buttons={[{ text: "Run Diagnostic", href: "#" }]}
             background={{ variant: "sparkles-gradient" }}
+            useInvertedBackground={false}
           />
         </div>
         <div id="footer" data-section="footer">
