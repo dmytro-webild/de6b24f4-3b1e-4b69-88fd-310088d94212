@@ -31,6 +31,7 @@ export default function LandingPage() {
         { name: "Methodology", id: "about" },
         { name: "About Mario", id: "about-mario" },
         { name: "Services", id: "/services" },
+        { name: "FAQ", id: "/faq" },
         { name: "Strategy", id: "contact" },
       ]}
       brandName="Consulting MM"
