@@ -3,15 +3,10 @@
 import { ThemeProvider } from "@/providers/themeProvider/ThemeProvider";
 import ReactLenis from "lenis/react";
 import ContactCTA from '@/components/sections/contact/ContactCTA';
-import FaqSplitText from '@/components/sections/faq/FaqSplitText';
-import FeatureCardSix from '@/components/sections/feature/FeatureCardSix';
 import FooterCard from '@/components/sections/footer/FooterCard';
 import HeroOverlayTestimonial from '@/components/sections/hero/HeroOverlayTestimonial';
-import MetricCardTwo from '@/components/sections/metrics/MetricCardTwo';
 import NavbarStyleCentered from '@/components/navbar/NavbarStyleCentered/NavbarStyleCentered';
-import PricingCardTwo from '@/components/sections/pricing/PricingCardTwo';
 import SplitAbout from '@/components/sections/about/SplitAbout';
-import TeamCardOne from '@/components/sections/team/TeamCardOne';
 
 export default function LandingPage() {
   return (
@@ -35,6 +30,7 @@ export default function LandingPage() {
         { name: "Case Studies", id: "cases" },
         { name: "Methodology", id: "about" },
         { name: "About Mario", id: "about-mario" },
+        { name: "Services", id: "/services" },
         { name: "Strategy", id: "contact" },
       ]}
       brandName="Consulting MM"
