@@ -12,7 +12,7 @@ export default function ServicesPage() {
     <ThemeProvider defaultButtonVariant="bounce-effect" defaultTextAnimation="entrance-slide" borderRadius="pill" contentWidth="medium" sizing="medium" background="circleGradient" cardStyle="layered-gradient" primaryButtonStyle="double-inset" secondaryButtonStyle="solid" headingFontWeight="extrabold">
       <ReactLenis root>
         <div id="nav" data-section="nav">
-          <NavbarStyleCentered navItems={[{ name: "The System", id: "/#system" }, { name: "Case Studies", id: "/#cases" }, { name: "Services", id: "/services" }, { name: "About Mario", id: "/about-mario" }, { name: "FAQ", id: "/faq" }]} brandName="Consulting MM" />
+          <NavbarStyleCentered navItems={[{ name: "The System", id: "/", key: "system" }, { name: "Case Studies", id: "/", key: "cases" }, { name: "Services", id: "/services", key: "services" }, { name: "About Mario", id: "/about-mario", key: "about" }, { name: "FAQ", id: "/faq", key: "faq" }]} brandName="Consulting MM" />
         </div>
         <div id="pricing" data-section="pricing">
           <PricingCardThree 
