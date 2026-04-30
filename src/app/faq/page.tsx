@@ -12,7 +12,7 @@ export default function FaqPage() {
     <ThemeProvider defaultButtonVariant="bounce-effect" defaultTextAnimation="entrance-slide" borderRadius="pill" contentWidth="medium" sizing="medium" background="circleGradient" cardStyle="layered-gradient" primaryButtonStyle="double-inset" secondaryButtonStyle="solid" headingFontWeight="extrabold">
       <ReactLenis root>
         <div id="nav" data-section="nav">
-          <NavbarStyleCentered navItems={[{ name: "The System", id: "/" }, { name: "Case Studies", id: "/" }, { name: "Methodology", id: "/" }, { name: "About Mario", id: "/about-mario" }, { name: "Services", id: "/services" }, { name: "FAQ", id: "/faq" }]} brandName="Consulting MM" />
+          <NavbarStyleCentered navItems={[{ name: "The System", id: "/", key: "system" }, { name: "Case Studies", id: "/", key: "cases" }, { name: "Methodology", id: "/", key: "methodology" }, { name: "About Mario", id: "/about-mario", key: "about" }, { name: "Services", id: "/services", key: "services" }, { name: "FAQ", id: "/faq", key: "faq" }]} brandName="Consulting MM" />
         </div>
         <div id="faq" data-section="faq">
           <FaqSplitText
@@ -30,7 +30,8 @@ export default function FaqPage() {
               { id: "tech-1", title: "How is AI used in your methodology?", content: "We leverage AI to process high-volume financial data for predictive forecasting and anomaly detection in real-time." },
               { id: "tech-2", title: "Is the AI making the decisions?", content: "No. The AI provides diagnostic intelligence and predictive insights, but final decision-making remains with the institutional executive team." }
             ]}
-            buttons={[{ text: "Book a Discovery Session", href: "#contact" }]}
+            buttons={[{ text: "Book a Discovery Session", href: "#contact" }]
+            }
           />
         </div>
         <div id="contact" data-section="contact">
